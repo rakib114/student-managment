@@ -1,0 +1,18 @@
+.student__section {
+  width: 100%;
+  display: flex;
+  gap: 30px;
+}
+._student {
+  margin-top: 100px;
+  border: 1px solid red;
+  text-align: center;
+  min-height: 200px;
+  /* min-width: 600px; */
+}
+.all {
+  flex-grow: 1;
+}
+.added_section {
+  flex-grow: 1;
+}

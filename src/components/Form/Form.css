@@ -1,0 +1,25 @@
+form {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+input {
+  outline: none;
+  padding: 22px 55px;
+  font-size: 18px;
+  border-radius: 8px;
+  background: transparent;
+}
+.add_btn {
+  display: inline-block;
+  padding: 0px 50px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  background-color: #3949ab;
+  color: white;
+  border-radius: 8px;
+}

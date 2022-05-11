@@ -1,0 +1,47 @@
+.info_area {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+table {
+  box-shadow: 1px -1px 5px 7px rgba(0, 0, 0, 0.2);
+  border-collapse: collapse;
+}
+thead {
+  box-shadow: 1px 12px 5px rgba(0, 0, 0, 0.14);
+}
+th {
+  padding: 1rem 1.5rem;
+  text-transform: uppercase;
+}
+td {
+  padding: 1rem 1.5rem;
+  font-size: 18px;
+  font-weight: 490;
+}
+tr:nth-child(even) {
+  background-color: #b6c8c8be;
+}
+.mini-btn {
+  display: inline-block;
+  padding: 6px 14px;
+  outline: none;
+  border: none;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.edt-btn {
+  background-color: #66bb6a;
+}
+.dlt-btn {
+  background-color: #ee3d3d;
+}
+.prsnt-btn {
+  background-color: #cddc39;
+}
+.absnt-btn {
+  background-color: #ff5722;
+}
